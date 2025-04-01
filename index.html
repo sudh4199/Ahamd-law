@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Ahmad Law</title>
+  </head>
+
+  <body class="relative pt-[80px]">
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-md py-4 px-6 md:px-10 lg:px-32 flex items-center justify-between z-20">
+  
+      <!-- Mobile Menu Button (Left-Aligned) -->
+      <button class="lg:hidden text-black text-2xl order-1">
+        ☰
+      </button>
+    
+      <!-- Logo (Left-Aligned with Margin after Menu) -->
+      <div class="flex-1 flex justify-start order-2 ml-4 md:ml-6">
+        <img src="images/Ahmad Law_final logo 1.jpg" alt="logo" class="w-10 md:w-[80px] min-w-[80px]">
+      </div>
+    
+      <!-- Contact Info (Right-Aligned) -->
+      <div class="flex items-center space-x-3 order-3">
+        <img src="images/Call Vector.png" alt="Call" class="w-6">
+        <h1 class="font-semibold text-sm text-right">
+          CONSULT WITH US:<br />
+          <span class="text-[22px] font-bold popp">012 345 6789</span>
+        </h1>
+      </div>
+    
+      <!-- Navigation Links (Hidden in mobile, centered in large screens) -->
+      <ul class="hidden lg:flex space-x-10 capitalize font-semibold popp absolute left-1/2 transform -translate-x-1/2">
+        <li><a href="#" class="text-black hover:text-gray-600">Home</a></li>
+        <li><a href="#" class="text-black hover:text-gray-600">About</a></li>
+        <li><a href="#" class="text-black hover:text-gray-600">Practice Area</a></li>
+        <li><a href="#" class="text-black hover:text-gray-600">Contact</a></li>
+      </ul>
+    
+    </nav>
+    
+    
+
+    <!-- Page Content -->
+    <div class="w-full bg-[url('images/bann.png')] min-h-[870px] bg-cover bg-center relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-full bg-[#4c6980]/80 flex items-center px-6 md:px-12 lg:px-20">
+        <div class="w-full max-w-[1800px] mx-auto flex flex-col lg:flex-row items-center justify-between relative min-h-[800px] h-full space-y-6 lg:space-y-0">
+          
+          <!-- TEXT SECTION -->
+          <div class="w-full lg:w-[45%] text-center lg:text-left pt-3 md:pt-8 px-3 md:px-6">
+            <h1 class="text-white text-[3vw] md:text-[1.8vw] lg:text-[1vw] popp font-semibold">
+              Providing Trusted Legal Advice
+            </h1>
+            <h1 class="text-white text-[5.5vw] md:text-[3.8vw] lg:text-[2.4vw] popp font-extrabold leading-tight mt-3">
+              Across The GTA for<br />Over a Decade
+            </h1>
+            <h1 class="text-white text-[2.5vw] md:text-[1.4vw] lg:text-[0.9vw] mt-3 popp font-medium">
+              INTEGRITY. EXCELLENCE. PROVEN RESULTS
+            </h1>
+            <p class="text-white text-[2.5vw] md:text-[1.5vw] lg:text-[12px] mt-3 popp leading-relaxed">
+              At Ahmad Law, we deliver top-tier legal services in real estate and family law, with a dedicated team of lawyers
+              committed to providing strategic legal solutions tailored to meet the needs of individuals, families, and businesses alike.
+            </p>
+            <button type="button"
+              class="w-full md:w-8/12 bg-white text-center py-3 px-5 mt-4 popp font-semibold rounded-md text-[2.8vw] md:text-[1.5vw] lg:text-[0.8vw]">
+              We've Got Your Legal Back<br />Book Your Free Consultation
+            </button>
+          </div>
+    
+          <!-- IMAGE & FORM SECTION -->
+          <div class="w-full lg:w-[50%] flex flex-col lg:flex-row items-center lg:items-end justify-between relative min-h-[800px] h-full space-y-5 lg:space-y-0">
+            
+            <!-- Form (Increased Width for All Screens) -->
+            <div class="w-full max-w-[600px] bg-white p-6 md:p-8 rounded-lg shadow-lg z-10">
+              <h2 class="text-lg md:text-xl font-bold text-center text-gray-800 mb-4">Schedule a Consultation</h2>
+              <form class="space-y-4">
+                <div>
+                  <label class="block text-gray-600 font-medium">Name</label>
+                  <input type="text" placeholder="Enter your name"
+                    class="w-full p-4 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                </div>
+                <div>
+                  <label class="block text-gray-600 font-medium">Email</label>
+                  <input type="email" placeholder="Enter your email"
+                    class="w-full p-4 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                </div>
+                <div>
+                  <label class="block text-gray-600 font-medium">Phone Number</label>
+                  <input type="tel" placeholder="Enter your phone number"
+                    class="w-full p-4 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                </div>
+                <div>
+                  <label class="block text-gray-600 font-medium">Select Service</label>
+                  <select class="w-full p-4 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <option value="">Choose a service</option>
+                    <option>Real Estate Law</option>
+                    <option>Family Law</option>
+                    <option>Corporate Law</option>
+                    <option>Criminal Law</option>
+                  </select>
+                </div>
+                <button type="submit"
+                  class="w-full bg-blue-600 text-white font-bold py-3 rounded-md hover:bg-blue-700 transition-all">
+                  Schedule Consultation
+                </button>
+              </form>
+            </div>
+    
+            <!-- Image (Beside Form on Large Screens, Below Form on Small Screens) -->
+            <div class="w-full lg:w-auto flex justify-center lg:justify-end">
+              <img src="images/business-woman-banner-concept-with-copy-space-Photoroom 1.png" alt="picture"
+                class="w-[50%] md:w-[45%] lg:w-auto max-w-[360px] object-contain">
+            </div>
+            
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!--grid function-->
+    <div class="w-8/12 mx-auto mt-10" data-aos="fade-up">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+      >
+        <div class="flex flex-wrap justify-center shadow-xl py-10">
+          <img src="images/Group.png" class="w-[20%] mx-[40%]" />
+          <h1 class="text-[50px] font-bold popp w-full text-center">30+</h1>
+          <h1
+            class="text-[24px] font-semibold popp w-full text-center capitalize"
+          >
+            years experiences
+          </h1>
+        </div>
+        <div class="flex flex-wrap justify-center shadow-xl py-10">
+          <img src="images/Group (1).png" class="w-[20%] mx-[40%]" />
+          <h1 class="text-[50px] font-bold popp w-full text-center">100+</h1>
+          <h1
+            class="text-[24px] font-semibold popp w-full text-center capitalize"
+          >
+            clients served
+          </h1>
+        </div>
+        <div class="flex flex-wrap justify-center shadow-xl py-10">
+          <img src="images/Group (2).png" class="w-[20%] mx-[40%]" />
+          <h1 class="text-[50px] font-bold popp w-full text-center">250+</h1>
+          <h1
+            class="text-[24px] font-semibold popp w-full text-center capitalize"
+          >
+            5 stars reviews
+          </h1>
+        </div>
+        <div class="flex flex-wrap justify-center shadow-xl py-10">
+          <img src="images/Group (3).png" class="w-[20%] mx-[40%]" />
+          <h1 class="text-[50px] font-bold popp w-full text-center">100%</h1>
+          <h1
+            class="text-[24px] font-semibold popp w-full text-center capitalize"
+          >
+            passionate team
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="w-8/12 mx-auto flex flex-col items-center mt-16">
+      <div class="w-full text-center">
+        <h1 class="font-semibold text-3xl sm:text-4xl popp" data-aos="fade-up">
+          Areas of Expertise
+        </h1>
+      </div>
+
+      <!-- Expertise Sections -->
+      <div class="w-full flex flex-col items-center mt-16 space-y-16">
+        <!-- Expertise Item 1 -->
+        <div
+          class="w-full flex flex-col lg:flex-row items-center group relative"
+          data-aos="fade-right"
+        >
+          <div
+            class="absolute hidden lg:block top-24 left-16 w-36 h-[550px] bg-blue-500"
+          ></div>
+          <div
+            class="w-full xl:w-96 top-[30px] lg:left-[180px] relative flex justify-center lg:justify-start"
+          >
+            <img
+              src="images/Mask group.png"
+              alt="Family Law"
+              class="w-full max-w-xs sm:max-w-sm z-10"
+            />
+            <video
+              class="absolute top-0 left-0 w-full h-full object-center opacity-0 group-hover:opacity-100 group-hover:bg-black transition-opacity duration-300 z-10"
+              autoplay
+              loop
+              muted
+            >
+              <source
+                src="images/5311276-hd_1080_1920_25fps.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div
+            class="w-full lg:w-[700px] bg-white p-6 lg:p-10 mt-8 lg:mt-0 lg:ml-16 text-center lg:text-left z-10 lg:mt-[150px]"
+          >
+            <h1 class="text-2xl md:text-3xl font-semibold">Family Law</h1>
+            <p class="mt-4 text-sm sm:text-base">
+              Navigating family law matters can be emotionally challenging and
+              at many times, may seem difficult to resolve. At Ahmad Law, our
+              compassionate team is committed to offering clear guidance and
+              supportive legal assistance.
+            </p>
+            <h2 class="mt-5 font-semibold text-xl">
+              Our Family Law Services Include:
+            </h2>
+            <div class="flex flex-col sm:flex-row mt-5 text-left sm:text-left">
+              <ul class="list-disc mx-5 text-sm sm:text-lg w-full sm:w-6/12">
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Child Custody and Access</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Child Support</a>
+                </li>
+                <li><a href="#" class="hover:text-gray-600">Divorce</a></li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Family & Divorce Mediation</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Property & Asset Division</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-disc mx-5 text-sm sm:text-lg w-full sm:w-6/12">
+                <li><a href="#" class="hover:text-gray-600">Separation</a></li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Spousal Support</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Uncontested Divorce</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Islamic Divorces</a>
+                </li>
+              </ul>
+            </div>
+            <button
+              class="w-full sm:w-6/12 bg-blue-500 text-center py-3 mt-6 font-semibold rounded"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- 2nd part left side-->
+        <div
+          class="w-full flex flex-col lg:flex-row-reverse items-center group relative"
+          data-aos="fade-right"
+        >
+          <!-- Blue Box for Decoration (Right-Aligned) -->
+          <div
+            class="absolute hidden lg:block top-24 right-16 w-36 h-[550px] bg-blue-500"
+          ></div>
+
+          <!-- Image & Video Section (Right-Aligned) -->
+          <div
+            class="w-full xl:w-96 top-[30px] lg:right-[180px] relative flex justify-center lg:justify-end"
+          >
+            <div class="relative">
+              <img
+                src="images/Mask group (1).png"
+                alt="Family Law"
+                class="w-full max-w-xs sm:max-w-sm z-10"
+              />
+              <video
+                class="absolute top-0 left-0 w-full h-full object-center opacity-0 group-hover:opacity-100 group-hover:bg-black transition-opacity duration-300 z-10"
+                autoplay
+                loop
+                muted
+              >
+                <source
+                  src="images/5520073-uhd_2160_3840_30fps.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+
+          <!-- Content Box (Fully Right-Aligned) -->
+          <div
+            class="w-full lg:w-[700px] bg-white p-6 lg:p-10 mt-8 lg:mt-0 lg:mr-16 text-center lg:text-right z-10 lg:mt-[150px] lg:ml-auto"
+          >
+            <h1 class="text-2xl md:text-3xl font-semibold">Real Estate Law</h1>
+            <p class="mt-4 text-sm sm:text-base">
+              We simplify the processes involved in real estate transactions to
+              ensure a smooth experience whether you're buying, selling, or
+              leasing property. Our expert real estate lawyers provide thorough
+              support and meticulous attention to every detail of your
+              transaction so that you can bo confident in your decisions
+            </p>
+
+            <h2 class="mt-5 font-semibold text-xl">
+              Our Real Estate Law Services Include:
+            </h2>
+
+            <!-- Services List (Right-Aligned) -->
+            <div class="flex flex-col sm:flex-row mt-5">
+              <!-- Left List -->
+              <ul class="w-full sm:w-6/12 mx-0 px-0 text-sm sm:text-lg list-disc text-left">
+                <li>
+                  <a href="#" class="hover:text-gray-600">Title Insurance</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Residential Purchase & Sale</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Review of Agreements of Purchase & Sale</a>
+                </li>
+              </ul>
+            
+              <!-- Right List -->
+              <ul class="w-full sm:w-6/12 mx-0 px-0 text-sm sm:text-lg list-disc text-left">
+                <li>
+                  <a href="#" class="hover:text-gray-600">Condominium Purchase & Sale</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Survivorship Application</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Mortgage Refinancing</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">Transfer of Title</a>
+                </li>
+              </ul>
+            </div>
+            
+
+            <!-- Right-Aligned Button -->
+            <div class="mt-6 text-center sm:text-right w-full">
+              <button
+              class="w-full sm:w-6/12 bg-blue-500 text-center py-3 mt-6 font-semibold rounded"
+            >
+              Learn More
+            </button>
+            </div>
+          </div>
+        </div>
+        <!--3rd part right side-->
+        <div
+          class="w-full flex flex-col lg:flex-row items-center group relative"
+          data-aos="fade-right"
+        >
+          <div
+            class="absolute hidden lg:block top-[140px] left-16 w-36 h-[550px] bg-blue-500"
+          ></div>
+          <div
+            class="w-full xl:w-96 top-[30px] lg:left-[180px] relative flex justify-center lg:justify-start"
+          >
+            <img
+              src="images/Mask group (2).png"
+              alt="Family Law"
+              class="w-full max-w-xs sm:max-w-sm z-10"
+            />
+            <video
+              class="absolute top-0 left-0 w-full h-full object-center opacity-0 group-hover:opacity-100 group-hover:bg-black transition-opacity duration-300 z-10"
+              autoplay
+              loop
+              muted
+            >
+              <source
+                src="images/7841659-hd_1080_1920_30fps.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div
+            class="w-full lg:w-[700px] bg-white p-6 lg:p-10 mt-8 lg:mt-0 lg:ml-16 text-center lg:text-left z-10 lg:mt-[150px]"
+          >
+            <h1 class="text-2xl md:text-3xl font-semibold">Wills & Estates</h1>
+            <p class="mt-4 text-sm sm:text-base">
+              Planning for the future involves careful consideration and
+              sensitive decisions. Ahmad Low offers export guidance to manage
+              every aspect of your estate planning, We are committed to
+              simplifying complex issues and ensuring your wishes are clearly
+              articulated and protected.
+            </p>
+            <h2 class="mt-5 font-semibold text-xl">
+              Our Family Law Services Include:
+            </h2>
+            <div class="flex flex-col sm:flex-row mt-5 text-left sm:text-left">
+              <ul class="list-disc mx-5 text-sm sm:text-lg w-full sm:w-6/12">
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Wills and Estate Planning
+                  </a>
+                </li>
+                <li><a href="#" class="hover:text-gray-600"> Trusts </a></li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">
+                    Estato Administration
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">
+                    Estate and Trust Litigation</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Guardianship and Capacity
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">
+                    Estate Taxes and Financial Planning</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-disc mx-5 text-sm sm:text-lg w-full sm:w-6/12">
+                <li>
+                  <a href="#" class="hover:text-gray-600"> Probote ProcoS </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >Inheritance and Succession Planning
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600"
+                    >End-of-Life Planning
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">
+                    Digital Assets und Online Estate</a
+                  >
+                </li>
+                <li><a href="#" class="hover:text-gray-600">Fider law </a></li>
+                <li>
+                  <a href="#" class="hover:text-gray-600">
+                    Cross-Border Estate Planning</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button
+              class="w-full sm:w-6/12 bg-blue-500 text-center py-3 mt-6 font-semibold rounded"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- Additional Expertise Items Can Be Added Here -->
+      </div>
+    </div>
+
+    <div class="w-full overflow-hidden mt-[120px]">
+      <div class="w-full h-auto lg:h-[820px] mt-[60px] relative">
+        <!-- Blue Background & Text Section -->
+        <div
+          class="w-[90%] xl:w-[90%] h-auto xl:h-full bg-blue-500 ml-auto xl:ml-[10%] rounded-tl-[100px] relative z-10 p-6 xl:p-12 text-section"
+        >
+          <div
+            class="w-full xl:w-[60%] ml-auto text-center xl:text-left"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <h1
+              class="text-white text-[32px] sm:text-[40px] xl:text-[50px] font-bold leading-tight lg:mt-[180px]"
+            >
+              Our Approach<br />to Legal Excellence
+            </h1>
+            <p class="text-white text-[16px] sm:text-[18px] font-semibold mt-3">
+              At Ahmad Law, we believe every client deserves personalized
+              attention and <br class="hidden xl:block" />
+              a legal strategy tailored to their unique needs.
+            </p>
+            <p class="text-white text-[16px] sm:text-[18px] font-semibold mt-5">
+              Our approach starts with listening—we take the time to understand
+              <br class="hidden xl:block" />
+              your goals, challenges, and concerns before crafting a plan
+              aligned with your best interests.
+            </p>
+            <p class="text-white text-[16px] sm:text-[18px] font-semibold mt-5">
+              From meticulous case preparation to skillful negotiation and
+              advocacy, <br class="hidden xl:block" />
+              we aim to achieve the best possible outcome for our clients.
+            </p>
+            <button
+              class="w-full sm:w-8/12 xl:w-6/12 bg-white text-blue-600 text-center py-3 px-5 mt-7 popp font-semibold rounded-xl hover:bg-gray-200 transition-all"
+            >
+              Connect with us to find legal solutions that work for you
+            </button>
+          </div>
+        </div>
+
+        <!-- Image Section (Maintaining Overlap) -->
+        <div
+          class="absolute top-[40px] xl:top-[80px] left-0 w-full xl:w-[750px] flex justify-center xl:justify-start z-10 image-section"
+          data-aos="zoom-in-right"
+        >
+          <img
+            src="images/Mask group (3).png"
+            alt="Lawyer Image"
+            class="w-[80%] sm:w-[60%] xl:w-[750px] max-w-full h-auto"
+          />
+        </div>
+      </div>
+    </div>
+    <style>
+      @media (max-width: 1700px) {
+        .text-section {
+          width: 100% !important; /* 🔹 Full width */
+          margin-left: 200px !important; /* 🔹 Left margin 200px */
+          border-radius: 0 !important; /* 🔹 Remove rounded corners */
+        }
+      }
+      @media (max-width: 1400px) {
+        .text-section {
+          width: 100% !important; /* 🔹 Full width */
+          margin-left: 0 !important; /* 🔹 Remove left margin */
+          border-radius: 0 !important; /* 🔹 Remove rounded corners */
+        }
+      }
+      @media (max-width: 1400px) {
+        .image-section {
+          width: 100%;
+          position: relative;
+          display: flex;
+          object-position: center;
+          justify-content: center;
+          z-index: 5;
+          top: -50px; /* 🔹 Image ko upar shift kar diya */
+        }
+        .image-section img {
+          width: 80%;
+          max-width: 1000px;
+          height: auto;
+          display: block;
+        }
+      }
+
+      /* 🔹 Medium Screens (1200px - 1699px) */
+      @media (max-width: 1400px) {
+        .image-section {
+          top: -30px; /* 🔹 Slightly less shift */
+        }
+        .image-section img {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      /* 🔹 Tablet View (991px - 1199px) */
+      @media (max-width: 1199px) {
+        .image-section {
+          top: -20px; /* 🔹 Slightly less shift */
+        }
+        .image-section img {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      /* 🔹 Small Tablets (768px - 990px) */
+      @media (max-width: 990px) {
+        .image-section {
+          top: 0 !important; /* 🔹 Mobile pe shift hatana */
+        }
+        .image-section img {
+          width: 100%;
+          max-width: 600px;
+        }
+      }
+    </style>
+
+    <div
+      class="w-[80%] mx-auto flex flex-col lg:flex-row justify-center items-center mt-16 gap-10"
+    >
+      <!-- Left Content -->
+      <div class="w-full lg:w-7/12 flex flex-wrap">
+        <h1 class="text-3xl md:text-4xl font-semibold popp w-full leading-snug">
+          Why Choose <br />Ahmad Law?
+        </h1>
+        <p class="text-lg leading-relaxed mt-3">
+          With over a decade of combined legal expertise, our lawyers at Ahmad
+          Law have an established reputation for delivering exceptional legal
+          solutions that put our clients first, without compromising on
+          professionalism and precision.
+        </p>
+
+        <!-- Experience Section -->
+        <div class="w-full flex mt-6 items-start gap-4">
+          <div class="w-[10%]">
+            <img
+              src="images/Group(4)_1.png"
+              alt="Experience Icon"
+              class="w-[80%]"
+            />
+          </div>
+          <div class="w-[85%]">
+            <h1 class="text-xl md:text-2xl font-semibold">
+              10+ Years of Experience
+            </h1>
+            <p class="text-lg leading-relaxed">
+              Our extensive experience spans a broad spectrum of legal
+              disciplines, giving our clients confidence that their most
+              critical matters are in capable hands. We don't just promise
+              results; we deliver them through careful planning, attention to
+              detail, and a deep understanding of the law.
+            </p>
+          </div>
+        </div>
+
+        <!-- Multilingual Expertise -->
+        <div class="w-full flex mt-6 items-start gap-4">
+          <div class="w-[10%]">
+            <img
+              src="images/Group(4)_1.png"
+              alt="Multilingual Icon"
+              class="w-[80%]"
+            />
+          </div>
+          <div class="w-[85%]">
+            <h1 class="text-xl md:text-2xl font-semibold">
+              Multilingual Expertise
+            </h1>
+            <p class="text-lg leading-relaxed">
+              Communication is key in any legal matter. Our team is equipped to
+              offer legal services in English, Punjabi, Urdu, and Hindi,
+              ensuring that language is never a barrier to accessing the legal
+              support you need.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tailored Legal Strategies -->
+        <div class="w-full flex mt-6 items-start gap-4">
+          <div class="w-[10%]">
+            <img
+              src="images/Group(4)_1.png"
+              alt="Legal Strategy Icon"
+              class="w-[80%]"
+            />
+          </div>
+          <div class="w-[85%]">
+            <h1 class="text-xl md:text-2xl font-semibold">
+              Tailored Legal Strategies
+            </h1>
+            <p class="text-lg leading-relaxed">
+              We take the time to listen, assess, and develop strategies that
+              align with your specific goals, situations, and perspectives. Our
+              focus is crafting legal solutions that address both immediate
+              concerns and safeguard your future interests.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Image Section (Fixed Alignment) -->
+      <div
+        class="w-full lg:w-5/12 flex flex-wrap justify-center gap-4 pt-10 lg:pt-[120px]"
+        data-aos="zoom-in"
+      >
+        <div class="grid grid-cols-2 gap-4 w-full">
+          <!-- Left Column -->
+          <div class="flex flex-col gap-4 ml-[60px]">
+            <img
+              src="images/Mask group (4).png"
+              alt="Image 1"
+              class="w-full h-auto object-cover rounded-lg shadow-lg"
+            />
+            <img
+              src="images/Mask group (6).png"
+              alt="Image 2"
+              class="w-full h-auto object-cover rounded-lg shadow-lg"
+            />
+          </div>
+          <!-- Right Column -->
+          <div class="flex flex-col gap-4">
+            <img src="images/Ellipse 1.png" alt="Ellipse" class="w-[40%]" />
+            <img
+              src="images/Mask group (5).png"
+              alt="Image 3"
+              class="w-[70%] h-auto object-cover rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-8/12 mx-auto flex flex-wrap justify-center items-center mt-[60px]"
+    >
+      <div class="w-full flex justify-center">
+        <h1
+          class="popp font-semibold text-[35px] text-center"
+          data-aos="fade-up"
+        >
+          Meet Our Legal Team
+        </h1>
+      </div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 2xl:grid-cols-3 gap-4"
+      >
+        <div
+          class="flex flex-wrap justify-center shadow-xl py-10 items-center hover:border hover:border-blue-800 duration-300"
+        >
+          <div class="w-[200px] h-[200px] rounded-full flex justify-center">
+            <img src="images/Mask group (7).png" class="w-full mx-[40%]" />
+          </div>
+
+          <h1 class="text-[30px] font-bold popp mt-5 px-5 w-full text-center">
+            SHAFAQ AHMED
+          </h1>
+          <h1
+            class="text-[22px] font-bold popp text-blue-800 px-5 w-full text-center"
+          >
+            B.A. J.D., LL.B.
+          </h1>
+          <h1
+            class="text-[25px] font-semibold popp mt-5 px-5 w-full text-center"
+          >
+            Founder
+          </h1>
+          <p
+            class="text-[16px] font-medium popp mt-2 px-5 w-full text-center capitalize"
+          >
+            Shafaq Ahmad is the founder of Ahmad Law, bringing over a decade of
+            experience from top legal firms and a commitment to personalized
+            legal strategies
+          </p>
+        </div>
+        <div
+          class="flex flex-wrap justify-center shadow-xl py-10 items-center hover:border hover:border-blue-800 duration-300"
+        >
+          <div class="w-[200px] h-[200px] rounded-full flex justify-center">
+            <img src="images/Mask group (8).png" class="w-full mx-[40%]" />
+          </div>
+          <h1 class="text-[30px] font-bold popp mt-5 px-5 w-full text-center">
+            ZUBDAH AHMAD
+          </h1>
+          <h1
+            class="text-[22px] font-bold popp text-blue-800 px-5 w-full text-center"
+          >
+            B.A., LL.B
+          </h1>
+          <h1
+            class="text-[25px] font-semibold popp mt-5 px-5 w-full text-center"
+          >
+            Co-Founder
+          </h1>
+          <p
+            class="text-[16px] font-medium popp mt-2 px-5 w-full text-center capitalize"
+          >
+            Zubdah Ahmad co-founded Ahmad Law, with a background in corporate
+            law and experience with leading Fortune 500 companies
+          </p>
+        </div>
+        <div
+          class="flex flex-wrap justify-center shadow-xl py-10 items-center hover:border hover:border-blue-800 duration-300"
+        >
+          <div class="w-[200px] h-[200px] rounded-full flex justify-center">
+            <img src="images/Mask group (9).png" class="w-full mx-[40%]" />
+          </div>
+          <h1 class="text-[30px] font-bold popp mt-5 px-5 w-full text-center">
+            SUMER JAFRI
+          </h1>
+          <h1
+            class="text-[22px] font-bold popp mt-2 text-blue-800 px-5 w-full text-center"
+          >
+            B.A., M.A., J.D.
+          </h1>
+          <h1
+            class="text-[25px] font-semibold popp mt-5 px-5 w-full text-center"
+          >
+            Associate
+          </h1>
+          <p
+            class="text-[16px] font-medium popp mt-2 px-5 w-full text-center capitalize"
+          >
+            Surner Jafri brings extensive legal and business experience working
+            with a variety of years on legal transactions, contractual
+            negotiations strategic legal advice.
+          </p>
+        </div>
+      </div>
+      <div class="w-full sm:w-8/12 md:w-6/12 lg:w-4/12 flex justify-center">
+        <button
+          type="button"
+          class="w-full min-w-[400px] bg-blue-500 text-center py-3 px-6 mt-5 sm:mt-7 popp font-semibold rounded-[5px] text-white leading-tight hover:bg-blue-600 transition-all duration-300 text-[18px]"
+        >
+          Let our experienced lawyers guide you <br />
+          - Schedule a free consultation
+        </button>
+      </div>
+    </div>
+    <div
+      class="w-8/12 mx-auto flex flex-wrap justify-center items-center mt-[60px]"
+    >
+      <div class="w-full flex justify-center mt-10">
+        <h1
+          class="popp font-semibold text-[35px] text-center capitalize"
+          data-aos="fade-up"
+        >
+          testimonials
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 px-4 md:px-10">
+        <div class="flex flex-col items-center border-2 border-blue-800 p-6 rounded-lg shadow-lg hover:border-blue-600 duration-300">
+          <p class="text-[16px] font-medium text-center capitalize leading-relaxed">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet minima numquam sit perferendis alias impedit.
+          </p>
+          <div class="flex flex-col items-center mt-6 w-[150px]">
+            <div class="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
+              <img src="images/Mask group (10).png" class="w-full h-full object-cover" />
+            </div>
+            <h1 class="capitalize text-lg font-semibold mt-3 text-center w-full">Jhon Dee</h1>
+            <div class="flex mt-2">
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex flex-col items-center border-2 border-blue-800 p-6 rounded-lg shadow-lg hover:border-blue-600 duration-300">
+          <p class="text-[16px] font-medium text-center capitalize leading-relaxed">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet minima numquam sit perferendis alias impedit.
+          </p>
+          <div class="flex flex-col items-center mt-6 w-[150px]">
+            <div class="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
+              <img src="images/Mask group (10).png" class="w-full h-full object-cover" />
+            </div>
+            <h1 class="capitalize text-lg font-semibold mt-3 text-center w-full">Jhon Dee</h1>
+            <div class="flex mt-2">
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+              <img src="images/Vector (2).png" alt="star" class="w-5 h-5 mx-1" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="w-full flex justify-center mt-10">
+        <img src="images/slider.png" alt="" class="" />
+      </div>
+    </div>
+    <div
+      class="w-full bg-[url('images/bann_2.jpg')] min-h-[700px] bg-cover bg-center relative mt-[120px] lg:rounded-tl-[100px] lg:rounded-br-[100px] flex justify-center items-center sm:rounded-none"
+    >
+      <div
+        class="absolute inset-0 w-full h-full bg-[#4c6980]/80 overflow-hidden lg:rounded-tl-[100px] lg:rounded-br-[100px] flex justify-center items-center sm:rounded-none"
+      >
+        <div class="w-[90%] mx-auto text-center">
+          <!-- City Grid -->
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full px-4"
+          >
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Toronto
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Brampton
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Mississauga
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Oakville
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Markham
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Milton
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Ajax
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Whitby
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Vaughan
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Richmond Hill
+            </h1>
+          </div>
+
+          <!-- Extra Cities -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-5 w-full px-4">
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Pickering
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Oshawa
+            </h1>
+            <h1
+              class="px-6 py-4 text-white bg-white/20 border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer"
+            >
+              Burlington
+            </h1>
+          </div>
+
+          <!-- Button -->
+          <div class="flex justify-center items-center mt-5 md:mt-10">
+            <div class="w-auto max-w-full px-4">
+              <h1
+                class="px-6 py-3 text-blue-800 bg-white border border-white rounded-xl popp hover:bg-black transition-all cursor-pointer font-semibold"
+              >
+                Experience The AHMAD LAW Advantage
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-8/12 mx-auto flex flex-wrap justify-center items-center mt-[60px]"
+    >
+      <div class="w-full flex justify-center mt-10">
+        <h1
+          class="popp font-semibold text-[35px] text-center capitalize"
+          data-aos="fade-up"
+        >
+          Legal Insights & Resources
+        </h1>
+      </div>
+
+      <div class="w-[100%] mx-auto">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-[60px]"
+        >
+          <!-- Card 1 -->
+          <div class="w-full p-5 shadow-xl">
+            <img
+              src="images/Mask group (12).png"
+              alt="Legal Resource Image"
+              class="w-full rounded-lg"
+            />
+            <div class="w-full">
+              <h1 class="flex mt-5">
+                <img src="images/clarity_date-line.png" alt="" class="" /><span
+                  class="ml-5 font-semibold"
+                  >January 1, 2023
+                </span>
+              </h1>
+              <h1 class="text-[22px] mt-5 font-semibold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </h1>
+              <p class="text-[16px] mt-3 font-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                aliquet dignissim massa, in suscipit neque...
+              </p>
+              <h1 class="flex mt-5">
+                <span class="font-semibold">Learn More </span
+                ><img src="images/Line 3.png" alt="" class="ml-2" />
+              </h1>
+            </div>
+          </div>
+          <!-- Card 1 -->
+          <div class="w-full p-5 shadow-xl">
+            <img
+              src="images/Mask group (13).png"
+              alt="Legal Resource Image"
+              class="w-full rounded-lg"
+            />
+            <div class="w-full">
+              <h1 class="flex mt-5">
+                <img src="images/clarity_date-line.png" alt="" class="" /><span
+                  class="ml-5 font-semibold"
+                  >January 1, 2023
+                </span>
+              </h1>
+              <h1 class="text-[22px] mt-5 font-semibold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </h1>
+              <p class="text-[16px] mt-3 font-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                aliquet dignissim massa, in suscipit neque...
+              </p>
+              <h1 class="flex mt-5">
+                <span class="font-semibold">Learn More </span
+                ><img src="images/Line 3.png" alt="" class="ml-2" />
+              </h1>
+            </div>
+          </div>
+          <!-- Card 1 -->
+          <div class="w-full p-5 shadow-xl">
+            <img
+              src="images/Mask group (14).png"
+              alt="Legal Resource Image"
+              class="w-full rounded-lg"
+            />
+            <div class="w-full">
+              <h1 class="flex mt-5">
+                <img src="images/clarity_date-line.png" alt="" class="" /><span
+                  class="ml-5 font-semibold"
+                  >January 1, 2023
+                </span>
+              </h1>
+              <h1 class="text-[22px] mt-5 font-semibold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.
+              </h1>
+              <p class="text-[16px] mt-3 font-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                aliquet dignissim massa, in suscipit neque...
+              </p>
+              <h1 class="flex mt-5">
+                <span class="font-semibold">Learn More </span
+                ><img src="images/Line 3.png" alt="" class="ml-2" />
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full bg-blue-900 py-10 mt-[120px]">
+      <div
+        class="w-[85%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-white"
+      >
+        <!-- Logo and Social Media -->
+        <div class="flex flex-col items-start">
+          <img src="images/logo2.png" alt="Company Logo" class="h-[100px]" />
+          <div class="flex space-x-2 mt-4 ml-6">
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center text-[18px] hover:bg-gray-300 transition-all duration-300"
+            >
+              <i class="fa-brands fa-facebook-f text-blue-900"></i>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center text-[18px] hover:bg-gray-300 transition-all duration-300"
+            >
+              <i class="fa-brands fa-instagram text-blue-900"></i>
+            </div>
+            <div
+              class="w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center text-[18px] hover:bg-gray-300 transition-all duration-300"
+            >
+              <i class="fa-brands fa-x-twitter text-blue-900"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h1 class="text-[22px] font-bold">Quick Links</h1>
+          <ul class="mt-4 space-y-2">
+            <li><a href="#" class="text-[14px] hover:underline">Home</a></li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Practice Areas</a>
+            </li>
+            <li><a href="#" class="text-[14px] hover:underline">News</a></li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Practice Areas -->
+        <div>
+          <h1 class="text-[22px] font-bold">Practice Areas</h1>
+          <ul class="mt-4 space-y-2">
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Family Law</a>
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Real Estate</a>
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Criminal Law</a>
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline"
+                >Wills & Estates</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Commercial Law</a>
+            </li>
+            <li>
+              <a href="#" class="text-[14px] hover:underline">Privacy Law</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h1 class="text-[22px] font-bold">Contact Info</h1>
+          <ul class="mt-4 space-y-2">
+            <li class="flex">
+              <i class="fa-solid fa-map-marker-alt mr-2"></i>123 Main Street,
+              City, Country
+            </li>
+            <li class="flex">
+              <i class="fa-solid fa-phone mr-2"></i>+1 234 567 890
+            </li>
+            <li class="flex">
+              <i class="fa-solid fa-envelope mr-2"></i>info@example.com
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div
+        class="w-[85%] mx-auto flex flex-col md:flex-row justify-between items-center mt-10 border-t border-white pt-4"
+      >
+        <div class="text-center text-sm popp text-white">
+          Copyright © 2024 Ahmad Low. All rights reserved.
+        </div>
+      </div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
